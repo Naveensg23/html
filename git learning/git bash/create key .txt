@@ -1,0 +1,48 @@
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$ pwd
+/c/Users/navee/desktop/html
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/navee/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/navee/.ssh/id_rsa
+Your public key has been saved in /c/Users/navee/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:yp4NOu4h1H0iUFDsjm6eqpDZJJbvN14d39STh50exTg navee@LAPTOP-33JKHCPM
+The key's randomart image is:
++---[RSA 3072]----+
+|  .+o            |
+|   ..          o |
+|  ..          E o|
+|  .o..        .++|
+|.oooo o S.   ..*o|
+|.Bo .o +. o o . +|
+|+.o.. +. . . . . |
+|. +o.*.+         |
+|++o+*o+ .        |
++----[SHA256]-----+
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$ cat /c/Users/navee/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWu2J1KoWlu30gJrnb+Rf5CiwABda82SBHjO1AFdL35HfD0YbcFAfRhS3ikGD/8fKYZvixJ/kQEQgmlp1lbe9t3Y5nm0PYdUIVB13KxovGD8+X7Yi8RS6Sw2JQb8UU4FzCRDkoQism8JQCOETBce3j9xfTKm6jgGdndNAEDTuO58kXQFVuPWFotBOiV86NVXVGAXUgQfWlm0CSDDSUz09cqtotrBdovUwRxBk2gjps2I322rHAXJk4u8oEHaQaj4mxHRvcPQiV3VCjPnXQPFol1ilnrQ+c1BdcNDGB5GhAR2sCJuQ408Mdmo0mRahfbCv21pUoDUWcaCYjkCXQtSLbq8zU8weS8vGz4p5x433+buZkbHggQbMDTTRwXcVm3JmtsxUrxXo0LdetOFueDfvYN/vn2dHdfSc0lKqxDdRxdSiSC+D01vKDyQOI5HOWNC0+1n/9iEUx+9PWmlfu6E25i7v/RhtRLZMpMcqdbAf6de5jE04dD6ogy8F1twT6udE= navee@LAPTOP-33JKHCPM
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 213 bytes | 213.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Naveensg23/html.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+navee@LAPTOP-33JKHCPM MINGW64 ~/desktop/html (main)

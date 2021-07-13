@@ -1,0 +1,7 @@
+1.git init
+2.git status
+3.git add .
+4.git push
+5.git status
+6.rm '*from git init folder*'          if you need to remove any file   ,7.git push
+

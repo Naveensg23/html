@@ -1,0 +1,100 @@
+Microsoft Windows [Version 10.0.19043.1083]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\navee\Desktop\HTML>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1563356200769.jpg
+        My learning/
+        day 1/
+        day 2/
+        day 3/
+        day 4/
+        day 5/
+        day 6/
+        rm222-mind-16_1.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\navee\Desktop\HTML>git add .
+
+C:\Users\navee\Desktop\HTML>git commit -m "html learning"
+[main 2b78191] html learning
+ 20 files changed, 543 insertions(+)
+ create mode 100644 1563356200769.jpg
+ create mode 100644 My learning/mylearning.html
+ create mode 100644 day 1/images/naveen.jpg
+ create mode 100644 day 1/index.html
+ create mode 100644 day 2/blog.html
+ create mode 100644 day 2/company/about.html
+ create mode 100644 day 2/index.html
+ create mode 100644 day 2/vimal.html
+ create mode 100644 day 3/N.jpg
+ create mode 100644 day 3/forms.html
+ create mode 100644 day 3/table creation.html
+ create mode 100644 day 4/index.html
+ create mode 100644 day 4/style.css
+ create mode 100644 day 5/doctorstrange.jpg
+ create mode 100644 day 5/first.html
+ create mode 100644 day 5/scarlett-johansson.jpg
+ create mode 100644 day 5/thor.jpg
+ create mode 100644 day 5/video.mp4
+ create mode 100644 day 6/second.html
+ create mode 100644 rm222-mind-16_1.jpg
+
+C:\Users\navee\Desktop\HTML>git push
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (30/30), 82.34 MiB | 885.00 KiB/s, done.
+Total 30 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: warning: See http://git.io/iEPt8g for more information.
+remote: warning: File day 5/video.mp4 is 81.51 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+To github.com:Naveensg23/html.git
+   252d9bc..2b78191  main -> main
+
+C:\Users\navee\Desktop\HTML>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    day 5/video.mp4
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\navee\Desktop\HTML>git rm "day 5/video.mp4"
+rm 'day 5/video.mp4'
+
+C:\Users\navee\Desktop\HTML>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    day 5/video.mp4
+
+
+C:\Users\navee\Desktop\HTML>git commit -m "removed video"
+[main bc80d9a] removed video
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 day 5/video.mp4
+
+C:\Users\navee\Desktop\HTML>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Naveensg23/html.git
+   2b78191..bc80d9a  main -> main
+
+C:\Users\navee\Desktop\HTML>
