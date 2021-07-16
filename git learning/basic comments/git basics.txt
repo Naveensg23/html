@@ -1,7 +1,25 @@
 1.git init
 2.git status
 3.git add .
-4.git push
-5.git status
-6.rm '*from git init folder*'          if you need to remove any file   ,7.git push
 
+  TO ADD A PARTICULAR FILE:
+  git add filename
+
+  TO REMOVE A PARTICULAR FILE:
+  git rm filename --hint-->From git init folder
+
+  TO REMOVE MORE THAN ONE PARTICULAR FILES:
+  create a notepad with .gitignore extension --inside--> foldername/*.filename or if it is in same DIR then,use *.filename
+  git add .gitignore 
+
+4.git commit -m ""
+5.git remote add origin git@github.com:____.git
+6.git push -u origin master
+  TO MAKE A BRANCH AND MOVE IT:
+  git checkout -b branchname
+  git pushorigin branchname
+  
+  TO SWITCH BRANCH:
+  git checkout branchname
+  git switch branchname
+7.git status   

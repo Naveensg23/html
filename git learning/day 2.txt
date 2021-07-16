@@ -1,0 +1,103 @@
+Microsoft Windows [Version 10.0.19043.1083]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git init
+Initialized empty Git repository in C:/Users/navee/Desktop/Flask/webportal-env/webportal/.git/
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 5A8C-252D
+
+ Directory of C:\Users\navee\Desktop\Flask\webportal-env\webportal
+
+14-07-2021  09:39    <DIR>          .
+14-07-2021  09:39    <DIR>          ..
+14-07-2021  09:36    <DIR>          config
+14-07-2021  09:36    <DIR>          logs
+14-07-2021  09:38    <DIR>          src
+               0 File(s)              0 bytes
+               5 Dir(s)  177,874,227,200 bytes free
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git add src
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git add config
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git add logs
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git add .
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>notepad .gitignore
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   config/config.cfg
+        new file:   src/hello.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git add .gitignore
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   config/config.cfg
+        new file:   src/hello.py
+
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git commit -m "Initial commit"
+[master (root-commit) 75c34ac] Initial commit
+ 3 files changed, 14 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 config/config.cfg
+ create mode 100644 src/hello.py
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch
+* master
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git remote add origin git@github.com:Naveensg23/webportal.git
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch -M main
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch
+* main
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch -M master
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch
+* master
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 539 bytes | 539.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Naveensg23/webportal.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git checkout -b feature1
+Switched to a new branch 'feature1'
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>git branch
+* feature1
+  master
+
+C:\Users\navee\Desktop\Flask\webportal-env\webportal>cd \
+
+C:\>
